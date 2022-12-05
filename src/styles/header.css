@@ -1,0 +1,16 @@
+.header {
+    height:15vh;
+    
+    /* background-image: url('../utilities/clouds.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat; */
+    display:flex;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.devon {
+    font-size: 12vh;
+    color: aliceblue;
+    margin-top: 3vh;
+}

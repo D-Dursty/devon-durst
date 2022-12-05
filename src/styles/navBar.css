@@ -1,0 +1,12 @@
+.navTabs {
+    display:flex;
+    justify-content: center;
+}
+
+.navBtn {
+    display: inline;
+    text-decoration: none;
+    padding: 15px;
+    color:aliceblue;
+    font-weight: bold;
+}

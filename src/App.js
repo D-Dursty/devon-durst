@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Header from "./components/Header";
-import Page from "./components/Page";
+import Header from "./comps/Header";
+import Page from "./comps/Page";
 import './App.css'
 
 function App() {

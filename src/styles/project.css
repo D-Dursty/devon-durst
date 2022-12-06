@@ -1,21 +1,20 @@
 .pageContainer{
     margin:2%;
-    margin-bottom: 2%;
     display:flex;
     justify-content: center;
     width: 95%;
-    background-color: rgba(240, 248, 255, 0.377);
-    border-width: 5px;
-    border-style: line;
-    border-color: black;
+    
 }
 
 .singleProjectContainer {
     margin:20px;
-    width: 80%;
+    width: 90%;
     display:flex;
     justify-content:center;
     border-width: 10px;
+    background-color: rgba(240, 248, 255, 0.615);
+    padding: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -33,4 +32,17 @@
     display: flex;
     justify-content: flex-end;
 }
+
+.infoList li{
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.repo {
+    text-decoration: none;
+    list-style: none;
+}
+
 

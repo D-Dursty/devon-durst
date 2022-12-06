@@ -10,31 +10,21 @@ function Project() {
                     <div className='imageContainer'>
                     <img width='400px' src={require(`../utilities/projects/The Stay Homie.png`)}></img>
                     </div>
+
                     <div className='infoContainer'>
-                    <ul>
-                        <li><h5>The Stay Homie </h5></li>
-                        <h6>The Ultimate Get-Out-of-Work Excuse Generator</h6>
-                    
-                        <div className='description'></div>
-                        <a href="" target="_blank">Launch Site</a>
-                        <a href="" target="_blank">GitHub Repository</a>
-                    </ul>
-                </div>
+                        <ul className='infoList'>
+                            <li>The Stay Homie </li>
+                            <li>The Ultimate Get-Out-of-Work Excuse Generator</li>
+                            <br/>
+                            <li><div className='description'>The Stay Homie is a tongue-in-check excuse generator built using HTML, TailWind, and JavaScript</div></li>
+                            <br/>
+                            <li><a className='repo' href="" target="_blank">Visit Site</a></li>
+                            <li><a className='repo' href="" target="_blank">GitHub Repository</a></li>
+                        </ul>
+                    </div>
+
             </div>
             
-            {/* <div className='singleProjectContainer'>
-                <div>
-                    <h4>The Stay Homie: The Ultimate Get-Out-of-Work Excuse Generator</h4>
-                    <div className='imageContainer'>
-                    <img></img>
-                    </div>
-                    <div className='detailsContainer'>
-                        <div className='description'></div>
-                        <a href="" target="_blank">Launch Site</a>
-                        <a href="" target="_blank">GitHub Repository</a>
-                    </div>
-                </div>
-            </div> */}
 
         </div>
     )

@@ -3,6 +3,27 @@
     width:75%;
     background-color: rgba(240, 248, 255, 0.519);
     margin-left: 12%;
+    display: flex;
+    justify-content: center;
+}
+
+.downloadContainer {
+    justify-content:  baseline;
+}
+
+.downloadBtn{
+    padding: 10px;
+    margin: 10px;
+    margin-top:20px;
+    height: 40px;
+    background-color:rgba(255, 166, 0, 0.448);
+}
+.download {
+    align-content: center;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
 }
 
 .resume {

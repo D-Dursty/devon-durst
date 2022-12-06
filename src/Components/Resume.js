@@ -2,9 +2,9 @@ import '../styles/resume.css';
 
 function Resume() {
     return (
-        <div className='main'>
+        <div className='resumeContainer'>
 
-            <div>Resume</div>
+            <div className='resume'><img width='700px' src={require(`../utilities/projects/resume-1.png`)}></img></div>
 
         </div>
     )

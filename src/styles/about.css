@@ -7,16 +7,11 @@
     width: 100%;
 }
 
-/* .picContainer {
-    display: flex;
-    justify-content:flex-start;
-    width: 35%;
-} */
 
 .profilePic {
     display: flex;
     width: 95%;
-    margin-left: 10vh;
+    margin-left: 15vh;
     opacity: 90%;
     border-radius: 300px;
     border-style:double;
@@ -24,15 +19,10 @@
     border-color: aliceblue;
 }
 
-/* .aboutContainer{
-    display:flex;
-    justify-content: flex-end;
-    width: 55%;
-} */
 .aboutMe {
     justify-content: center;
     margin:20vh;
     color: aliceblue;
     font-size: x-large;
-    font-weight: bold;
+    /* font-weight: bold; */
 }

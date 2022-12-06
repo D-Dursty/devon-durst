@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavBar from './NavBar';
 import About from './About';
-import ProjectPage from "./ProjectPage";
+import Project from "./Project";
 import Contact from './Contact';
 import Resume from './Resume';
 import '../styles/page.css'
@@ -12,8 +12,8 @@ function Page (){
   const renderPage = () => {
       if (currentPage==="About"){
           return <About/>;
-      } else if (currentPage==="ProjectPage"){
-          return <ProjectPage/>;
+      } else if (currentPage==="Project"){
+          return <Project/>;
       } else if (currentPage==="Contact"){
           return <Contact/>;
       } else if (currentPage==="Resume"){

@@ -6,19 +6,19 @@ function NavBar({currentPage, handlePageChange}) {
       <div className="navBar">
         <ul className="navTabs">
           <li className="navBtn">
-            <a href="#about" onClick={()=> handlePageChange("About")}
+            <a id="link" href="#about" onClick={()=> handlePageChange("About")}
             className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About Me</a>
           </li>
           <li className="navBtn">
-            <a href="#ProjectPage" onClick={()=> handlePageChange("ProjectPage")}
-            className={currentPage === 'ProjectPage' ? 'nav-link active' : 'nav-link'}>Portfolio</a>
+            <a id="link" href="#Project" onClick={()=> handlePageChange("Project")}
+            className={currentPage === 'Project' ? 'nav-link active' : 'nav-link'}>Portfolio</a>
           </li>
           <li className="navBtn">
-            <a href="#Contact" onClick={()=> handlePageChange("Contact")}
+            <a id="link" href="#Contact" onClick={()=> handlePageChange("Contact")}
             className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact</a>
           </li>
           <li className="navBtn">
-            <a href="#Resume" onClick={()=> handlePageChange("Resume")}
+            <a id="link" href="#Resume" onClick={()=> handlePageChange("Resume")}
             className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a>
           </li>
         </ul>

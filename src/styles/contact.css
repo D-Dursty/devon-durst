@@ -1,0 +1,15 @@
+.contactContainer{
+    width:90%;
+    background-color: rgba(240, 248, 255, 0.568);
+    align-self: center;
+    margin:5%;
+    padding:15px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+

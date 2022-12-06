@@ -21,8 +21,10 @@
 
 .aboutMe {
     justify-content: center;
-    margin:20vh;
+    margin-top:10vh;
+    margin-left:20vh;
+    margin-right:20vh;
     color: aliceblue;
-    font-size: x-large;
+    font-size: large;
     /* font-weight: bold; */
 }

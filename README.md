@@ -9,7 +9,9 @@ This is a front-end built application using a front-end React repository featuri
 Upon reaching the landing page, use the links listed below the title to access different content pages. 
 
 ## Links
+
 Deployed Site: https://devon-durst.netlify.app/
+
 GitHub Repository: https://github.com/D-Dursty/devon-durst
 
 ## Screenshots

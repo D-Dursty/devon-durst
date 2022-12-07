@@ -18,7 +18,7 @@ function Project() {
                             <br/>
                             <li><div className='description'>The Stay Homie is a tongue-in-check excuse generator built using HTML, TailWind, and JavaScript</div></li>
                             <br/>
-                            <li><a className='repo' href="https:/cornetj13.github.io/stay-homie/" target="_blank">Visit Site</a></li>
+                            <li><a className='repo' href="https://cornetj13.github.io/stay-homie/" target="_blank">Visit Site</a></li>
                             <li><a className='repo' href="https://github.com/cornetj13/stay-homie" target="_blank">GitHub Repository</a></li>
                         </ul>
                     </div>

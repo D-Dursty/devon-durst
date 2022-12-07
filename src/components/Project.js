@@ -59,8 +59,8 @@ function Project() {
                             <br/>
                             <li><div className='description'>A practice in flexbox, this portfolio was my first build-from-scratch assignment. It includes a seamless media query transition, and was built using HTML, and CSS. </div></li>
                             <br/>
-                            <li><a className='repo' href="https://github.com/D-Dursty/devon-durst-personal-webpage" target="_blank">Visit Site</a></li>
-                            <li><a className='repo' href="https://d-dursty.github.io/devon-durst-personal-webpage/" target="_blank">GitHub Repository</a></li>
+                            <li><a className='repo' href="https://d-dursty.github.io/devon-durst-personal-webpage/" target="_blank">Visit Site</a></li>
+                            <li><a className='repo' href="https://github.com/D-Dursty/devon-durst-personal-webpage" target="_blank">GitHub Repository</a></li>
                         </ul>
                     </div>
 

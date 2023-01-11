@@ -4,7 +4,7 @@ import '../styles/header.css'
 function Header(props) {
   return (
     <div className="header">
-    <h1 className="devon">Devon Durst</h1>
+    <h4 className="devon">DEVON DURST</h4>
     </div>
   )
 }

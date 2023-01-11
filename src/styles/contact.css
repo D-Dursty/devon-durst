@@ -1,6 +1,6 @@
 .contactContainer{
-    width:90%;
-    background-color: rgba(240, 248, 255, 0.568);
+    width:87%;
+    background-color: rgba(240, 248, 255, 0.292);
     align-self: center;
     margin:5%;
     padding:15px;
@@ -8,8 +8,25 @@
 
 .contact {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 10px;
+    font-family: tenor sans;
 }
 
+
+.form h2 {
+    display: flex;
+    justify-content: center;
+    font-family: roboto mono;
+    color: aliceblue;
+}
+
+.formBtn {
+    font-family: tenor sans;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    padding: 3%;
+    background-color: rgba(127, 249, 255, 0.09);
+}
 

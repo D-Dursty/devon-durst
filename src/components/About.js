@@ -29,7 +29,7 @@ function About() {
                 <br></br>
                 <hr></hr>
                 <div className='downloadContainer'>
-                <button className='downloadBtn'><a className='download' href={require(`../utilities/projects/resume-1.png`)} target="_blank" download>Download My Resume</a></button>
+                <button className='downloadBtn'><a className='download' href={require(`../utilities/projects/resume-1.png`)} target="_blank" download>DOWNLOAD MY RÉSUMÉ</a></button>
             </div>
                 </div>
             </div>

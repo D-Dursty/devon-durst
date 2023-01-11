@@ -55,12 +55,12 @@
     border-style: groove;
 }
 .downloadBtn:hover{
-    border-color: rgb(66, 66, 113);
+    border-color: aliceblue;
     border-style: dotted;
 }
 .download {
     align-content: center;
-    font-family: Tenor Sans;
+    font-family: tenor sans;
     font-size: large;
     text-decoration: none;
     padding: 10px;

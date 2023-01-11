@@ -17,10 +17,10 @@ function NavBar({currentPage, handlePageChange}) {
             <a id="link" href="#Contact" onClick={()=> handlePageChange("Contact")}
             className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>CONTACT</a>
           </li>
-          <li className="navBtn">
+          {/* <li className="navBtn">
             <a id="link" href="#Resume" onClick={()=> handlePageChange("Resume")}
             className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>RESUME</a>
-          </li>
+          </li> */}
         </ul>
       </div>
 

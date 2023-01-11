@@ -33,3 +33,11 @@
 .aboutMe p {
     font-family: "Tenor Sans";
 }
+
+.logo {
+    background-color: rgba(237, 227, 227, 0.848);
+    margin-right: 5px;
+    padding: 2px;
+    border-radius: 5px;
+    filter: grayscale(30%);
+}

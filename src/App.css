@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asul:wght@400;700&family=Chivo:wght@400;900&family=Roboto+Mono:wght@200;300;400;700&family=Rubik:ital,wght@0,900;1,800&family=Tenor+Sans&display=swap');
 
-* {
-    font-family: 'Roboto Mono';
-}
 
 .main {
     background-image: url('./utilities/background.JPG');

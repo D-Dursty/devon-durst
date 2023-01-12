@@ -35,9 +35,9 @@
 }
 
 .logo {
-    background-color: rgba(237, 227, 227, 0.848);
-    margin-right: 5px;
+    background-color: rgba(59, 80, 118, 0.427);
+    margin-left: 10%;
     padding: 2px;
-    border-radius: 5px;
-    filter: grayscale(30%);
+    border-radius: 3px;
+    filter: grayscale(25%);
 }

@@ -3,7 +3,7 @@ import { validateEmail } from "../utilities/helpers/helpers";
 import { useForm, ValidationError } from "@formspree/react";
 import "../styles/contact.css";
 
-function Contact() {
+function ContactForm() {
   const [state, handleSubmit] = "xrgvgdrr";
   if (state.succeeded) {
     return (
@@ -51,4 +51,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default ContactForm;

@@ -4,7 +4,7 @@ import { useForm, ValidationError } from "@formspree/react";
 import "../styles/contact.css";
 
 function ContactForm() {
-  const [state, handleSubmit] = "xrgvgdrr";
+  const [state, handleSubmit] = useForm("xrgvgdrr");
   if (state.succeeded) {
     return (
       <p>Thank you for contacting me, I look forward to reading your E-mail!</p>
@@ -20,7 +20,6 @@ function ContactForm() {
           <br></br>
             <input
             placeholder="Your Name Here"
-            className="form-field p-2"
             id="name"
             type="name"
             name="name"/>

@@ -2,32 +2,38 @@
 
 .aboutContainer {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     height: 60vh;
     width: 100%;
+}
+.picContainer {
+    width: 40%;
+    justify-content: flex-start;
 }
 
 
 .profilePic {
     display: flex;
-    width: 95%;
-    margin-top: 10vh;
-    margin-left: 15vh;
-    opacity: 90%;
-    border-radius: 300px;
-    border-style:double;
-    border-width: 5px;
+    justify-content: flex-end;
+    width: 70%;
+    margin-top: 17vh;
+    margin-left: 12vh;
+    border-style:solid;
+    border-width: 3px;
     border-color: aliceblue;
 }
 
+.bioContainer {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .aboutMe {
-    justify-content: center;
     margin-top:10vh;
-    margin-left:20vh;
-    margin-right:20vh;
+    margin-left:7vh;
     color: aliceblue;
-    font-size: large;
-    /* font-weight: bold; */
+    font-size: medium;
 }
 
 .aboutMe p {

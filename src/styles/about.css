@@ -2,7 +2,6 @@
 
 .aboutContainer {
     display: flex;
-    /* justify-content: center; */
     height: 60vh;
     width: 100%;
 }
@@ -47,3 +46,52 @@
     border-radius: 3px;
     filter: grayscale(25%);
 }
+
+  /* Small smartphones */
+  @media screen and (max-width: 426px) {
+    .aboutContainer {
+        display: grid;
+        height: 60vh;
+        width: 100%;
+    }
+
+    .picContainer {
+        width: 80%;
+
+    }
+
+    .profilePic {
+        width: 90%;
+        margin-top: 4vh;
+        margin-left: 5vh;
+        border-style:solid;
+        border-width: 3px;
+        border-color: aliceblue;
+    }
+    
+    .bioContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .aboutMe {
+        margin-top:2vh;
+        margin-left:1.5vh;
+        color: aliceblue;
+        font-size: medium;
+    }
+    
+    .aboutMe p {
+        font-family: "Tenor Sans";
+    }
+    
+    .logo {
+        background-color: rgba(59, 80, 118, 0.427);
+        margin-left: 10%;
+        padding: 2px;
+        border-radius: 3px;
+        filter: grayscale(25%);
+    }
+
+  }

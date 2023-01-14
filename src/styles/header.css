@@ -11,3 +11,33 @@
     margin-top: 3vh;
     font-family: roboto mono;
 }
+@media screen and (max-width: 426px) {.header {
+    height:5vh;
+    display:flex;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.devon {
+    font-size: 6vh;
+    color: aliceblue;
+    margin-top: 3vh;
+    font-family: roboto mono;
+}
+}
+
+@media screen and (max-width: 325px) {
+.header {
+    height:5vh;
+    display:flex;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.devon {
+    font-size: 5vh;
+    color: aliceblue;
+    margin-top: 3vh;
+    font-family: roboto mono;
+}
+}

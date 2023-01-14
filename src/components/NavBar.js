@@ -1,28 +1,25 @@
 import React from "react";
 import '../styles/navBar.css';
+import { Link } from "react-router-dom";
 
-function NavBar({currentPage, handlePageChange}) {
+function NavBar() {
     return (
-      <div className="navBar">
+      <nav className="navBar">
+        <div className="navContainer">
         <ul className="navTabs">
           <li className="navBtn">
-            <a id="link" href="#about" onClick={()=> handlePageChange("About")}
-            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>ABOUT ME</a>
+            <Link to="/" className="link">ABOUT ME</Link>
           </li>
           <li className="navBtn">
-            <a id="link" href="#Project" onClick={()=> handlePageChange("Project")}
-            className={currentPage === 'Project' ? 'nav-link active' : 'nav-link'}>WORKS</a>
+            <Link to="/works" className="link">WORKS</Link>
           </li>
           <li className="navBtn">
-            <a id="link" href="#Contact" onClick={()=> handlePageChange("Contact")}
-            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>CONTACT</a>
+            <Link to="/message" className="link">CONTACT</Link>
           </li>
-          {/* <li className="navBtn">
-            <a id="link" href="#Resume" onClick={()=> handlePageChange("Resume")}
-            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>RESUME</a>
-          </li> */}
+        
         </ul>
-      </div>
+        </div> 
+      </nav>
 
     );
   }

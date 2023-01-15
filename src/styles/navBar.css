@@ -24,3 +24,28 @@
     color:aliceblue;
     /* font-weight: bold; */
 }
+
+@media screen and (max-width: 426px) {
+    .navContainer {
+        width: 100%;
+        display:flex;
+        justify-content: space-between;
+        /* justify-content:flex-start; */
+    }
+    
+    .navTabs {
+        /* width: 40%; */
+        /* margin-left: 27%; */
+        display:flex;
+        justify-content:space-around;
+        text-decoration: none;
+        list-style: none;
+        
+    }
+    
+    .navBtn {
+        margin-top: 40px;
+        margin-right:10px;
+        margin-left:18px;
+    }
+}

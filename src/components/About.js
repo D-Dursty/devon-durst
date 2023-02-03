@@ -90,7 +90,7 @@ function About() {
             <button className="downloadBtn">
               <a
                 className="download"
-                href={require(`../utilities/projects/resume-1.png`)}
+                href={require(`../utilities/devon-resume.pdf`)}
                 target="_blank"
                 download
               >

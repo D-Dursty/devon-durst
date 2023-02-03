@@ -44,7 +44,7 @@ function Resume() {
             </div>
             <hr></hr>
             <div className='downloadContainer'>
-                <button className='downloadBtn'><a className='download' href={require(`../utilities/projects/resume-1.png`)} target="_blank" download>Download My Resume</a></button>
+                <button className='downloadBtn'><a className='download' href={require(`../utilities/devon-resume.pdf`)} target="_blank" download>Download My Resume</a></button>
             </div>
         </div>
     )

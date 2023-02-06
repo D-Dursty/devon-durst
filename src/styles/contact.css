@@ -49,3 +49,40 @@ textarea {
     background-color: aliceblue;
 }
 
+@media screen and (max-width: 426px) {
+    .contactContainer{
+        width:80%;
+        background-color: rgba(240, 248, 255, 0.292);
+        display: block;
+        align-self: center;
+        margin:5%;
+        padding:15px;
+        border-color: aliceblue;
+        border-style: solid;
+    }
+    .contact {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        font-family: tenor sans;
+    }
+    
+    input {
+        width:15rem;
+        height: 2rem;
+    }
+    
+    textarea {
+        width:15rem;
+        height: 10rem;
+    }
+    .formBtn {
+        font-family: tenor sans;
+        display: flex;
+        justify-content: center;
+        margin-left: 33%;
+        padding: 3%;
+        background-color: rgba(127, 249, 255, 0.09);
+    }
+}
+

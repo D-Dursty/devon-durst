@@ -1,10 +1,10 @@
 .contactContainer{
-    width:40%;
+    width:60%;
     background-color: rgba(240, 248, 255, 0.292);
     display: block;
     align-self: center;
     margin:5%;
-    margin-left: 29%;
+    margin-left: 19%;
     padding:15px;
     border-color: aliceblue;
     border-style: solid;
@@ -15,6 +15,16 @@
     justify-content: space-around;
     padding: 10px;
     font-family: tenor sans;
+}
+
+input {
+    width:30rem;
+    height: 2rem;
+}
+
+textarea {
+    width:30rem;
+    height: 10rem;
 }
 
 
@@ -29,8 +39,12 @@
     font-family: tenor sans;
     display: flex;
     justify-content: center;
-    margin-left: 30%;
+    margin-left: 40%;
     padding: 3%;
     background-color: rgba(127, 249, 255, 0.09);
+}
+
+.formBtn:hover {
+    font-style: italic;
 }
 

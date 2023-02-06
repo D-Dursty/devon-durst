@@ -1,43 +1,18 @@
 import React from "react";
 import '../styles/navBar.css';
 
-import { Link } from "react-router-dom";
 import { LinkContainer } from 'react-router-bootstrap';
-import {Navbar, Nav} from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-// function NavBar() {
-//   return (
-//     <nav className="navBar">
-//       <div className="navContainer">
-//         <ul className="navTabs">
-//           <li className="navBtn">
-//             <Link to="/" className="link">
-//               ABOUT ME
-//             </Link>
-//           </li>
-//           <li className="navBtn">
-//             <Link to="/works" className="link">
-//               WORKS
-//             </Link>
-//           </li>
-//           <li className="navBtn">
-//             <Link to="/message" className="link">
-//               CONTACT
-//             </Link>
-//           </li>
-//         </ul>
-//       </div>
-//     </nav>
-//   );
-// }
-
-// export default NavBar;
 
 function NavBar() {
   return (
     <Navbar bg="light" expand="lg" className="navBar">
-      {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
-      <Navbar.Collapse id="basic-navbar-nav">
+      <Container>
+        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" />       */}
+        <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="navContainer">
         <span>
         <ul className="navTabs">
@@ -60,6 +35,7 @@ function NavBar() {
         </span>
       </Nav>
       </Navbar.Collapse>
+      </Container>
     </Navbar>
   );
 }
